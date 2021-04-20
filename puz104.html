@@ -19,6 +19,12 @@
             for (let i = 0; i < Row; i++) {
                 document.getElementById('A' + (i + 1)).value = G[i];  // loop 1st 6 elements for Row A
             }
+            for (let i = 0; i < Row; i++) {
+                document.getElementById('B' + (i + 1)).value = G[Col + i];  // loop 1st 6 elements for Row A
+            }
+            for (let i = 0; i < Row; i++) {
+                document.getElementById('C' + (i + 1)).value = G[2*Col + i];  // loop 1st 6 elements for Row A
+            }
 
         }
 
@@ -44,7 +50,7 @@
         }
     </style>
 </head>
-<body onload="loadGrid(G3)">
+<body onload="loadGrid(G1)">
     <!--  21/4/21 Now loading the variable "G1" which is a 36 element array  -->
     <form id="input">
         <h1>v1.04 Binary Puzzle Game (6x6)</h1>
