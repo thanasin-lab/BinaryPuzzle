@@ -1,5 +1,7 @@
 # Binary Puzzle - Teacher site
 
+Details of the puzzle are on the home page:  https://bwattle.github.io/BinaryPuzzle/
+
 This trial HSC question is a good example of:
     - top down programming
     - stubs
@@ -7,8 +9,6 @@ This trial HSC question is a good example of:
     - code refinement - initial grunt code to neat nested loops
     - screen layout with minimal CSS
     - constantly updating version numbers and noting incremental changes
-
-Details of the puzzle are on the home page:  https://bwattle.github.io/BinaryPuzzle/
 
 Solving the various puzzles is fun and the sandbox is built up version by version until there are 13 sample puzzles which are chosen from a drop down.
 
